@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/mathquest',
+  assetPrefix: '/mathquest',
   eslint: {
     ignoreDuringBuilds: true,
   },
