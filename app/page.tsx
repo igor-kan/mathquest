@@ -19,6 +19,9 @@ export default function Home() {
               <span className="hidden font-bold sm:inline-block">MathQuest</span>
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
+              <Link href="/dashboard" className="transition-colors hover:text-foreground/80">
+                Dashboard
+              </Link>
               <Link href="/courses" className="transition-colors hover:text-foreground/80">
                 Courses
               </Link>
